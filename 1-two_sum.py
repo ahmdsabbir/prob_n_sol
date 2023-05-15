@@ -12,7 +12,11 @@ def two_sum_1(array, target):
 def two_sum_2(nums: list[int], target: int)->list[int]:
     ''' have two version of nums, one mutable and other immutable.
     if diff between target and an element(x) in (call the element y) nums is in the list without x, 
-    indices of x & y is the result'''
+    indices of x & y is the result
+    
+    TURNS OUT IT DOESN'T WORK FOR [3,3]
+    
+    '''
     
     nums = tuple(nums)
     for n in nums:
