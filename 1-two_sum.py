@@ -20,7 +20,8 @@ def two_sum_2(nums: list[int], target: int)->list[int]:
         newnums.remove(n)
         if target - n in newnums:
             print(target-n)
-            return [nums.index(n), nums.index(target - n)]
+            return [nums.index(n), nums.index(target - n)
+    return False
                 
 if __name__=='__main__':
     array = [4,5,8,99,6,7,9,8, 90]
